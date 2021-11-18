@@ -1,0 +1,6 @@
+.listenButton {
+    -fx-background-color: lightgreen;
+    -fx-font-size: 12;
+    -fx-min-width: 20;
+    -fx-background-radius: 7em;
+}

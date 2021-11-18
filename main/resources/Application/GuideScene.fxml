@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" styleClass="layer1bgColor" stylesheets="@backgroud.css"
+            xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Application.GuideController">
+    <children>
+        <Text fill="WHITE" layoutX="23.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help"
+              wrappingWidth="186.556640625">
+            <font>
+                <Font size="51.0"/>
+            </font>
+        </Text>
+        <AnchorPane layoutX="14.0" layoutY="88.0" prefHeight="400.0" prefWidth="250.0">
+            <children>
+                <Button fx:id="generalButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false"
+                        onAction="#handleButtonAction" prefHeight="50.0" prefWidth="230.0" styleClass="buttonbg"
+                        stylesheets="@listviewBg.css" text="General" underline="true">
+                    <font>
+                        <Font size="23.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="addButton" layoutX="10.0" layoutY="62.0" mnemonicParsing="false"
+                        onAction="#handleButtonAction" prefHeight="50.0" prefWidth="230.0" styleClass="buttonbg"
+                        stylesheets="@listviewBg.css" text="How to add a word into dictionary?" textAlignment="CENTER"
+                        wrapText="true">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="removeButton" layoutX="10.0" layoutY="114.0" mnemonicParsing="false"
+                        onAction="#handleButtonAction" prefHeight="50.0" prefWidth="230.0" styleClass="buttonbg"
+                        stylesheets="@listviewBg.css" text="Remove a word from the dictionary?">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="hearButton" layoutX="10.0" layoutY="166.0" mnemonicParsing="false"
+                        onAction="#handleButtonAction" prefHeight="50.0" prefWidth="230.0" styleClass="buttonbg"
+                        stylesheets="@listviewBg.css" text="How to hear my word?">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="importantButton" layoutX="10.0" layoutY="218.0" mnemonicParsing="false"
+                        onAction="#handleButtonAction" prefHeight="50.0" prefWidth="230.0" styleClass="buttonbg"
+                        stylesheets="@listviewBg.css" text="Want to save the important word?">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="recentButton" layoutX="10.0" layoutY="270.0" mnemonicParsing="false"
+                        onAction="#handleButtonAction" prefHeight="50.0" prefWidth="230.0" styleClass="buttonbg"
+                        stylesheets="@listviewBg.css" text="View search history?">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="aboutButton" layoutX="10.0" layoutY="322.0" mnemonicParsing="false"
+                        onAction="#handleButtonAction" prefHeight="50.0" prefWidth="230.0" styleClass="buttonbg"
+                        stylesheets="@listviewBg.css" text="About us">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="268.0" layoutY="98.0" prefHeight="363.0" prefWidth="410.0" styleClass="desbg"
+                    stylesheets="@GuideScene.css">
+            <children>
+                <Pane fx:id="recentPane" layoutX="3.0" layoutY="3.0" prefHeight="371.0" prefWidth="409.0"
+                      style="-fx-background-color: #2D2A2A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                      AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Tìm kiếm gần đây" wrappingWidth="349.1367198526859">
+                            <font>
+                                <Font size="22.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="16.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Bạn hoàn toàn có thể tìm được những từ mình đã tìm (20 từ gần nhất) bằng cách bấm vào &quot; Lịch sử tìm kiếm &quot; trong Menu chính."
+                              wrappingWidth="368.1367221381515">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Button layoutX="99.0" layoutY="156.0" mnemonicParsing="false" prefHeight="50.0"
+                                prefWidth="180.0" style="-fx-background-color: green;" text="Search History">
+                            <font>
+                                <Font size="16.0"/>
+                            </font>
+                        </Button>
+                    </children>
+                </Pane>
+                <Pane fx:id="importantPane" layoutX="6.0" layoutY="6.0" prefHeight="385.0" prefWidth="404.0"
+                      style="-fx-background-color: #2D2A2A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0"
+                      AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Bạn tìm được 1 từ rất quan trọng? Bạn muốn lưu vào để có thể tra cứu nhanh?"
+                              wrappingWidth="343.13672855496407">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Danh sách yêu thích" wrappingWidth="343.13672855496407">
+                            <font>
+                                <Font size="28.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Hãy thêm vào danh sách yêu thích của riêng mình bằng cách bấm nút :"
+                              wrappingWidth="360.1367306546308">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Button layoutX="106.0" layoutY="172.0" mnemonicParsing="false" prefHeight="40.0"
+                                prefWidth="160.0" style="-fx-background-radius: 0;" styleClass="listenButton"
+                                stylesheets="@exceptCell.css" text="★ Favourite"/>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Sau khi thêm, bạn có thể xem lại các từ đã thêm trong phần &quot; Favourite List &quot; bên ngoài menu chính"
+                              wrappingWidth="368.1367218494415">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Button layoutX="86.0" layoutY="288.0" mnemonicParsing="false" prefHeight="50.0"
+                                prefWidth="200.0" style="-fx-background-color: green;" text="Favourite List">
+                            <font>
+                                <Font size="20.0"/>
+                            </font>
+                        </Button>
+                    </children>
+                </Pane>
+                <Pane fx:id="hearPane" layoutX="3.0" layoutY="3.0" prefHeight="371.0" prefWidth="409.0"
+                      style="-fx-background-color: #2D2A2A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                      AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Phát âm từ" wrappingWidth="293.13671875">
+                            <font>
+                                <Font size="20.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Bạn có thể nghe cách phát âm của một từ bằng cách bấm vào biểu tượng cái loa ở bên dưới:"
+                              wrappingWidth="360.1367212831974">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Button layoutX="168.0" layoutY="146.0" mnemonicParsing="false" prefHeight="40.0"
+                                prefWidth="50.0" style="-fx-background-radius: 7em;" styleClass="listenButton"
+                                stylesheets="@exceptCell.css" text="📢"/>
+                    </children>
+                </Pane>
+                <Pane fx:id="aboutPane" layoutX="3.0" layoutY="3.0" prefHeight="371.0" prefWidth="409.0"
+                      style="-fx-background-color: #2D2A2A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                      AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Về chúng tôi" wrappingWidth="334.13671875">
+                            <font>
+                                <Font size="26.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Đây là một ứng dụng cũng như bài tập lớn của Môn Lập trình Hướng đối tượng ( OOP ) của Đại học Công Nghệ - ĐHQGHN do nhóm chúng tôi phát triển."
+                              wrappingWidth="360.1367212831974">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Đinh Duy Thành" wrappingWidth="174.13671875">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Phùng Đức Thản" wrappingWidth="174.13671875">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Ngụy Thế Huy" wrappingWidth="174.13671875">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Hyperlink fx:id="thanh" layoutX="161.0" layoutY="115.0" onAction="#openBrowser"
+                                   text="http://facebook.com/thanh.coi.1042" textFill="#9db9ff"/>
+                        <Hyperlink fx:id="than" layoutX="161.0" layoutY="147.0" onAction="#openBrowser"
+                                   text="http://facebook.com/thanduc2k1" textFill="#9db9ff"/>
+                        <Hyperlink fx:id="huy" layoutX="161.0" layoutY="176.0" onAction="#openBrowser"
+                                   text="https://www.facebook.com/nguythehuy" textFill="#9db9ff"/>
+                        <Text fill="WHITE" layoutX="13.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Đừng ngại để lại đóng góp để chúng tôi có thể phát triển các ứng dụng tốt hơn!"
+                              wrappingWidth="349.1367198526859">
+                            <font>
+                                <Font size="22.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Regards!" wrappingWidth="218.13671875">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                    </children>
+                </Pane>
+                <Pane fx:id="removePane" layoutX="3.0" layoutY="3.0" prefHeight="371.0" prefWidth="409.0"
+                      style="-fx-background-color: #2D2A2A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                      AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Tương tự, nếu bạn thấy 1 từ sai hoặc do bạn thêm nhầm, bạn hoàn toàn có thể xóa chúng ra khỏi từ điển"
+                              wrappingWidth="360.1367212831974">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Xóa từ" wrappingWidth="343.13671875">
+                            <font>
+                                <Font size="27.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Bấm nút - Remove để xóa :" wrappingWidth="360.1367212831974">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Button layoutX="146.0" layoutY="166.0" mnemonicParsing="false" prefHeight="30.0"
+                                prefWidth="80.0" styleClass="buttonbg" style="-fx-background-color: red;"
+                                stylesheets="@listviewBg.css" text="- Remove"/>
+                    </children>
+                </Pane>
+                <Pane fx:id="addPane" layoutX="3.0" layoutY="3.0" prefHeight="371.0" prefWidth="409.0"
+                      style="-fx-background-color: #2D2A2A;" styleClass="layer1bgColor" AnchorPane.bottomAnchor="0.0"
+                      AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Thêm vào từ điển" wrappingWidth="360.13671875">
+                            <font>
+                                <Font size="23.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="13.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Từ điển của chúng tôi bị thiếu sót? Thật xin lỗi về sự bất tiện này vì đây chỉ là phiên bản BETA."
+                              wrappingWidth="374.1367235779762">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="13.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Nhưng đừng lo, nếu bạn không tìm thấy 1 từ trong từ điển này, hãy tìm các nguồn tài liệu và thêm vào từ điển này để thuận tiện cho những lần tra cứu bằng cách: Bấm vào nút + Add ở dưới hình."
+                              wrappingWidth="374.1367144069045">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Button layoutX="160.0" layoutY="197.0" mnemonicParsing="false" prefHeight="30.0"
+                                prefWidth="80.0" styleClass="buttonbg" stylesheets="@listviewBg.css" text="+ Add"/>
+                        <Text fill="WHITE" layoutX="16.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Sự bổ sung của bạn sẽ giúp ích rất nhiều cho cộng đồng và ứng dụng từ điển của chúng tôi!"
+                              wrappingWidth="368.1367166340351">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                    </children>
+                </Pane>
+                <Pane fx:id="generalPane" layoutX="9.0" layoutY="6.0" prefHeight="382.0" prefWidth="398.0"
+                      style="-fx-background-color: #2D2A2A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="6.0"
+                      AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Text fill="WHITE" layoutX="13.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Tổng quan:" wrappingWidth="374.13671875">
+                            <font>
+                                <Font size="27.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Từ điển Anh - Việt giúp bạn có thể dễ dàng tra từ."
+                              wrappingWidth="374.1367235779762">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Nghĩa của từ sẽ có cách phát âm, từ đồng nghĩa và đặt câu ví dụ."
+                              wrappingWidth="349.13671875">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Các dữ liệu từ vựng đều được lấy từ Cambrigde Dictionary nên có độ tin cậy cao."
+                              wrappingWidth="368.13671875">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Để tìm 1 từ khóa bạn có thể vào thanh tìm kiếm và nhập từ đó. Thanh tìm kiếm sẽ hiển thị những từ phù hợp giúp bạn tìm kiếm chính xác hơn."
+                              wrappingWidth="368.1367166340351">
+                            <font>
+                                <Font size="15.0"/>
+                            </font>
+                        </Text>
+                    </children>
+                </Pane>
+            </children>
+        </AnchorPane>
+        <Button layoutX="616.0" layoutY="55.0" mnemonicParsing="false" onAction="#switchMain" prefHeight="33.0"
+                prefWidth="61.0" styleClass="buttonbg" stylesheets="@listviewBg.css" text="⏪ Back"/>
+    </children>
+</AnchorPane>

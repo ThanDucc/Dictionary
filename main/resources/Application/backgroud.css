@@ -1,0 +1,25 @@
+.bodybg{
+    -fx-background-image: url(backgroud.jpg);
+}
+
+.layer1bgColor{
+    -fx-background-color: #2D2A2A;
+}
+
+.text-field {
+    -fx-background-color: #2D2A2A;
+    -fx-text-fill: white;
+    -fx-border-color: #33B0D0;
+}
+
+.text-area {
+    -fx-background-color: #2D2A2A;
+    -fx-text-fill: white;
+    -fx-border-color: #33B0D0;
+}
+
+
+.scroll-pane {
+    -fx-background: #2D2A2A;
+    -fx-border-color: #2D2A2A;
+}

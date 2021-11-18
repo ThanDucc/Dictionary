@@ -1,0 +1,500 @@
+ability	Khả năng
+accident	Tai nạn
+activity	Hoạt động
+actor	Diễn viên
+ad	Quảng cáo
+addition	Thêm vào
+administration	Quyền quản trị
+advertising	Quảng cáo
+advice	Lời khuyên
+affair	Việc
+agency	Đại lý
+agreement	Sự đồng ý
+airport	Sân bay
+alcohol	Rượu
+ambition	Tham vọng
+analysis	Nghiên cứu
+analyst	Người phân tích
+anxiety	Lo ngại
+apartment	Căn hộ
+appearance	Xuất hiện
+apple	Táo
+application	Ứng dụng
+appointment	Cuộc hẹn
+area	Khu vực
+argument	Đối số
+army	Quân đội
+arrival	Đi đến nơi, sự đến
+art	Nghệ thuật
+article	Điều khoản
+aspect	Diện mạo
+assignment	Phân công
+assistance	Sự giúp trợ
+assistant	Phụ tá, giúp đỡ
+association	Sự kết hợp
+assumption	Giả định
+atmosphere	Không khí
+attention	Chú ý
+attitude	Thái độ
+audience	Khán giả
+awareness	Nhận thức
+baseball	Bóng chày
+basis	Căn cứ
+basket	Cái giỏ
+bathroom	Phòng tắm
+bedroom	Phòng ngủ
+beer	Bia
+bird	Chim
+birthday	Ngày sinh nhật
+blood	Máu
+bonus	Tiền thưởng
+boring	Chán nản
+boyfriend	Bạn trai
+bread	Bánh mì
+breath	Hơi thở
+business	Kinh doanh
+buyer	Người mua
+cabinet	Buồng
+camera	Máy chụp hình
+cancer	Ung thư
+category	Thể loại
+celebration	Lễ kỷ niệm
+cell	Tế bào
+championship	Chức vô địch
+chapter	Chương
+charity	Bố thí
+cheek	Gò má, ngạo mạn
+chemistry	Hóa học
+chest	Ngực
+child	Trẻ em
+childhood	Thời thơ ấu
+chocolate	Sôcôla
+church	Nhà thờ
+cigarette	Thuốc lá
+city	Thành phố
+classroom	Lớp học
+client	Khách hàng
+climate	Khí hậu
+clothes	Quần áo
+coffee	Cà phê
+collection	Bộ sưu tập
+college	Trường đại học
+combination	Phối hợp
+committee	Ủy ban
+communication	Liên lạc
+community	Cộng đồng
+comparison	Sự so sánh
+competition	Cuộc thi
+complaint	Lời phàn nàn
+computer	Máy tính
+concept	Khái niệm
+conclusion	Phần kết luận
+confusion	Nhầm lẫn
+connection	Liên quan
+consequence	Kết quả
+construction	Xây dựng
+context	Bối cảnh
+contract	Hợp đồng
+contribution	Sự đóng góp
+control	Điều khiển
+conversation	Đàm thoại
+cookie	Cookie
+country	Nước
+county	Quận
+courage	Lòng can đảm
+cousin	Anh em họ
+criticism	Sự chỉ trích
+currency	Tiền tệ
+customer	Khách hàng
+dad	Cha
+data	Dữ liệu
+database	Cơ sở dữ liệu
+dealer	Người chia bài
+death	Sự chết
+debate	Tranh luận
+debt	Nợ nần
+decision	Phán quyết
+definition	Định nghĩa
+delivery	Giao hàng
+department	Bộ
+departure	Khởi hành
+depression	Phiền muộn
+depth	Chiều sâu
+description	Miêu tả
+desk	Bàn giấy
+development	Phát triển
+device	Thiết bị
+diamond	Kim cương
+difference	Khác nhau
+difficulty	Khó khăn
+dinner	Bữa tối
+direction	Phương hướng
+director	Giám đốc
+dirt	Bụi
+disaster	Thảm họa
+discussion	Thảo luận
+disease	Căn bệnh
+disk	Đĩa
+distribution	Phân phát
+drama	Kịch
+drawer	Ngăn kéo
+drawing	Bản vẽ
+driver	Người lái xe
+ear	Tai
+economics	Kinh tế học
+editor	Biên tập viên
+education	Sự giáo dục
+efficiency	Hiệu quả
+effort	Cố gắng
+election	Sựu bầu cử
+elevator	Thang máy
+emotion	Xúc động
+emphasis	Sự nhấn mạnh
+employee	Công nhân
+employer	Sử dụng lao động
+employment	Việc làm
+energy	Năng lượng
+engine	Động cơ
+engineering	Kỹ thuật
+entertainment	Giải trí
+enthusiasm	Hăng hái
+entry	Lối vào
+environment	Môi trường
+equipment	Thiết bị
+error	Lỗi
+establishment	Thành lập
+estate	Tài sản
+event	Biến cố
+exam	Thi
+examination	Kiểm tra
+speech	Thí dụ
+excitement	Phấn khích
+explanation	Giải thích
+expression	Biểu hiện
+extent	Mức độ
+fact	Việc
+failure	Thất bại
+family	Gia đình
+farmer	Nông dân
+feedback	Thông tin phản hồi
+film	Phim ảnh, quay phim
+finding	Phát hiện
+fishing	Câu cá
+flight	Chuyến bay
+food	Thức ăn
+football	Bóng đá
+form	Hình thức
+fortune	Vận may
+foundation	Nền tảng
+freedom	Sự tự do
+friendship	Tình bạn
+funeral	Đám ma, tang lễ
+game	Trò chơi
+garbage	Đống rác
+gate	Cửa
+gene	Gen
+girl	Cô gái
+girlfriend	Bạn gái
+goal	Mục tiêu
+government	Chính phủ
+grandmother	Bà ngoại
+grocery	Tạp hóa
+growth	Sự tăng trưởng
+guest	Khách
+guidance	Hướng dẫn
+guitar	Đàn guitar
+hair	Tóc
+hall	Đại sảnh
+hat	Mũ
+health	Sức khỏe
+hearing	Thính giác
+heart	Tim
+height	Chiều cao
+highway	Xa lộ
+historian	Sử gia
+history	Lịch sử
+homework	Bài tập về nhà
+honey	Mật ong, đường mật, êm dịu
+hospital	Bệnh viện
+hotel	Khách sạn
+housing	Nhà ở
+idea	Ý kiến
+imagination	Sự tưởng tượng
+importance	Tầm quan trọng
+impression	Ấn tượng
+improvement	Sự cải thiện
+income	Lợi tức
+independence	Độc lập
+indication	Dấu hiệu
+industry	Ngành công nghiệp
+inflation	Sự lạm phát
+information	Thông tin
+initiative	Sáng kiến
+injury	Vết thương
+insect	Côn trùng
+inspection	Sự kiểm tra
+inspector	Viên thanh tra
+instance	Trường hợp
+instruction	Hướng dẫn
+insurance	Bảo hiểm
+intention	Mục đích
+interaction	Tương tác
+internet	Internet
+introduction	Sự giới thiệu
+investment	Đầu tư
+judgment	Án
+king	Vua
+knowledge	Kiến thức
+lab	Phòng thí nghiệm
+ladder	Thang
+lady	Phụ nữ
+lake	Hồ
+language	Ngôn ngữ
+law	Pháp luật
+leader	Lãnh đạo
+leadership	Lãnh đạo
+length	Chiều dài
+library	Thư viện
+life	Đời sống
+limit	Giới hạn
+literature	Văn chương
+location	Vị trí
+loss	Sự mất
+love	Tình Yêu
+magazine	Tạp chí
+maintenance	Bảo trì
+mall	Trung tâm mua sắm
+management	Quản lý
+manager	Người quản lý
+manufacturer	Nhà chế tạo
+map	Bản đồ
+marketing	Thị trường
+marriage	Hôn nhân
+match	Trận đấu
+math	Toán học
+meal	Bữa ăn
+meaning	Nghĩa
+measurement	Sự đo lường
+meat	Thịt
+media	Phương tiện truyền thông
+medicine	Y học
+member	Thành viên
+membership	Thành viên
+memory	Trí nhớ
+menu	Thực đơn
+message	Thông điệp
+method	Phương pháp
+midnight	Nữa đêm, giữa khuya
+mixture	Hỗn hợp
+mode	Chế độ
+mom	Mẹ
+moment	Chốc lát
+money	Tiền
+month	Tháng
+mood	Khí sắc
+movie	Phim
+mud	Bùn
+music	Âm nhạc
+nation	Quốc gia
+nature	Bản chất
+negotiation	Đàm phán
+news	Tin tức
+newspaper	Báo
+night	Đêm
+obligation	Nghĩa vụ
+office	Văn phòng
+operation	Hoạt động
+opinion	Ý kiến
+opportunity	Cơ hội
+orange	Trái cam
+organization	Cơ quan
+outcome	Kết quả
+oven	Lò nướng
+owner	Chủ nhân
+painting	Bức tranh
+paper	Giấy
+passenger	Hành khách
+passion	Tình yêu
+patience	Kiên nhẫn
+payment	Thanh toán
+penalty	Hình phạt
+people	Người
+percentage	Tỷ lệ phần trăm
+perception	Sự nhận thức
+performance	Hiệu suất
+permission	Sự cho phép
+person	Người
+personality	Nhân cách
+perspective	Quan điểm
+philosophy	Triết học
+phone	Điện thoại
+photo	Ảnh
+physics	Vật lý
+piano	Dương cầm
+pie	Bánh
+pizza	Bánh pizza
+platform	Nền tảng
+player	Người chơi
+poem	Bài thơ
+poet	Thi sĩ
+poetry	Thơ phú
+police	Cảnh sát
+policy	Chính sách
+politics	Chính trị
+pollution	Ô nhiễm
+population	Dân số
+possession	Sở hữu
+possibility	Khả năng
+potato	Khoai tây
+power	Quyền lực
+preference	Sự ưa thích
+preparation	Sự chuẩn bị
+presence	Sự hiện diện
+presentation	Trình bày
+president	Chủ tịch
+priority	Quyền ưu tiên
+problem	Vấn đề
+procedure	Phương pháp
+product	Sản phẩm
+profession	Nghề nghiệp
+professor	Giáo sư
+promotion	Khuyến mãi
+property	Bất động sản
+proposal	Đề nghị
+protection	Sự bảo vệ
+psychology	Tâm lý học
+quality	Chất lượng
+quantity	Số lượng
+queen	Nữ hoàng
+ratio	Tỉ lệ
+reaction	Sự phản ứng
+reading	Cách đọc
+reality	Thực tế
+reception	Tiếp nhận
+recipe	Công thức
+recognition	Sự công nhận
+recommendation	Khuyến nghị
+recording	Ghi âm
+reflection	Sự phản xạ
+refrigerator	Tủ lạnh
+region	Vùng
+relation	Quan hệ
+relationship	Mối quan hệ
+replacement	Sự thay thế
+republic	Nước cộng hòa
+reputation	Danh tiếng
+requirement	Yêu cầu
+resolution	Độ phân giải
+resource	Tài nguyên
+respect	Tôn trọng
+response	Câu trả lời
+responsibility	Trách nhiệm
+restaurant	Nhà hàng
+revenue	Lợi tức
+revolution	Cuộc cách mạng
+river	Sông
+road	Đường
+role	Vai trò
+safety	Sự an toàn
+salad	Xà lách
+sample	Mẫu
+satisfaction	Sự hài lòng
+scene	Sân khấu
+science	Khoa học
+seat	Ghế
+secretary	Thư ký
+sector	Khu vực
+security	An ninh
+selection	Sự lựa chọn
+series	Loạt
+session	Buổi họp
+setting	Thiết lập
+shirt	Áo sơ mi
+shopping	Mua sắm
+signature	Chữ ký
+significance	Ý nghĩa
+singer	Ca sĩ
+sir	Ngài
+sister	Chị
+situation	Tình hình
+skill	Kỹ năng
+society	Xã hội
+software	Phần mềm
+solution	Dung dịch
+son	Con trai
+song	Bài hát
+soup	Soup
+speaker	Loa
+speech	Lời nói
+statement	Tuyên bố
+steak	Miếng bò hầm
+storage	Lưu trữ
+story	Câu chuyện
+stranger	Người lạ
+strategy	Chiến lược
+student	Sinh viên
+studio	Phòng thu
+study	Nghiên cứu
+success	Sự thành công
+suggestion	Gợi ý
+supermarket	Siêu thị
+surgery	Phẫu thuật
+sympathy	Thông cảm
+system	Hệ thống
+tale	Truyện
+tea	Trà
+teacher	Giáo viên
+teaching	Giảng dạy
+technology	Công nghệ
+television	Tivi
+temperature	Nhiệt độ
+tennis	Quần vợt
+tension	Sức ép
+thanks	Lời cảm ơn
+theory	Lý thuyết
+thing	những vật
+thought	Tư tưởng
+throat	Họng
+time	Thời gian, định giờ
+tongue	Lưỡi
+tooth	Răng, ăn khớp nhau
+topic	Chủ đề
+town	Thành phố
+tradition	Truyền thống
+trainer	Huấn luyện viên
+transportation	Giao thông vận tải
+truth	Sự thật
+two	Hai
+uncle	Chú
+understanding	Hiểu biết
+union	Liên hiệp
+unit	Đơn vị
+university	Trường đại học
+user	Người sử dụng
+variation	Sự biến đổi
+variety	Đa dạng
+vehicle	Xe cộ
+version	Phiên bản
+video	Video
+village	Làng
+virus	Virus
+volume	Thể tích
+warning	Cảnh báo
+water	Nước
+way	Đường
+weakness	Yếu đuối
+wealth	Sự giàu có
+wedding	Kết hôn
+week	Tuần
+while	Trong khi
+wife	Vợ
+winner	Người chiến thắng
+woman	Đàn bà
+wood	Gỗ
+work	Công việc, hoạt động
+worker	Công nhân
+world	Thế giới
+writer	Nhà văn
+writing	Hiện ra, sự viết
+year	Năm
+youth	Tuổi trẻ

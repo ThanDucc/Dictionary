@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0"
+            prefWidth="700.0" styleClass="layer1bgColor" stylesheets="@backgroud.css"
+            xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Application.Controller">
+    <children>
+        <AnchorPane layoutX="300.0" layoutY="50.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0"
+                    prefWidth="400.0" styleClass="layer1bgColor" stylesheets="@backgroud.css">
+            <children>
+                <Pane layoutY="-50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                      minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0">
+                    <children>
+                        <Label fx:id="label" contentDisplay="CENTER" layoutX="30.0" layoutY="57.0" prefHeight="75.0"
+                               prefWidth="350.0" stylesheets="@listviewBg.css" text="Meaning" textAlignment="CENTER"
+                               textFill="azure"/>
+                        <Button fx:id="AddWord" layoutX="120.0" layoutY="14.0" maxWidth="80.0" mnemonicParsing="false"
+                                onAction="#addWord" prefHeight="30.0" prefWidth="80.0" styleClass="buttonbg"
+                                stylesheets="@listviewBg.css" text="+ Add "/>
+                        <Button fx:id="refresh" layoutX="210.0" layoutY="14.0" maxWidth="81.0" mnemonicParsing="false"
+                                onAction="#refresh" prefHeight="30.0" prefWidth="79.0" styleClass="buttonbg"
+                                stylesheets="@listviewBg.css" text="⟳ Refresh"/>
+                        <Button fx:id="RemoveButton" layoutX="300.0" layoutY="14.0" maxWidth="89.0"
+                                mnemonicParsing="false" onAction="#removeButton" prefHeight="30.0" prefWidth="80.0"
+                                style="-fx-background-color: red;" styleClass="buttonbg" stylesheets="@listviewBg.css"
+                                text="- Remove"/>
+                        <Button fx:id="AddWord1" layoutX="30.0" layoutY="14.0" maxWidth="96.0" mnemonicParsing="false"
+                                onAction="#switchHome" prefHeight="30.0" prefWidth="80.0" styleClass="buttonbg"
+                                stylesheets="@listviewBg.css" text="⏪Back"/>
+                        <Button fx:id="SpeakButton" layoutX="250.0" layoutY="80.0" mnemonicParsing="false"
+                                onAction="#speak" prefHeight="30.0" prefWidth="34.0" styleClass="listenButton"
+                                stylesheets="@exceptCell.css" text="📢"/>
+                        <Button fx:id="addFavourite" layoutX="300.0" layoutY="80.0" mnemonicParsing="false"
+                                onAction="#addFavourite" prefHeight="30.0" prefWidth="80.0"
+                                style="-fx-background-radius: 0;" styleClass="listenButton"
+                                stylesheets="@exceptCell.css" text="★ Favourite"/>
+                        <ScrollPane layoutX="30.0" layoutY="132.0" prefHeight="351.0" prefWidth="350.0"
+                                    stylesheets="@backgroud.css">
+                            <content>
+                                <Text fx:id="text" blendMode="SRC_ATOP" fill="WHITE" strokeType="OUTSIDE"
+                                      strokeWidth="0.0" text="Text" wrappingWidth="332.9830722808838" x="10.0"
+                                      y="10.0"/>
+                            </content>
+                        </ScrollPane>
+                    </children>
+                </Pane>
+            </children>
+        </AnchorPane>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                    prefHeight="500.0" prefWidth="300.0" styleClass="layer1bgColor" stylesheets="@backgroud.css">
+            <children>
+                <ListView fx:id="wordList" fixedCellSize="30.0" layoutX="8.0" layoutY="50.0" prefHeight="450.0"
+                          prefWidth="292.0" stylesheets="@listviewBg.css"/>
+                <TextField fx:id="searchBox" layoutX="8.0" layoutY="14.0" prefHeight="30.0" prefWidth="228.0"
+                           promptText="Enter Here" stylesheets="@backgroud.css"/>
+                <Button fx:id="Search" layoutX="242.0" layoutY="14.0" maxWidth="69.0" mnemonicParsing="false"
+                        onAction="#search" prefHeight="30.0" prefWidth="56.0" styleClass="buttonbg"
+                        stylesheets="@listviewBg.css" text="Search"/>
+
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+.list-view .list-cell:even {
+    -fx-background-color: #2D2A2A;
+    -fx-text-fill: white;
+}
+.list-view .list-cell:odd {
+    -fx-background-color: #2D2A2A;
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: lightblue;
+    -fx-text-fill: white;
+}
+.list-view {
+    -fx-border-color: black;
+}
+
+.list-view .list-cell {
+    -fx-font-size: 15;
+    -fx-border-color: #33B0D0;
+    -fx-border-width: 0.3;
+}
+
+.buttonbg {
+    -fx-background-color: #33B0D0;
+    -fx-text-fill: white;
+}
+
+.redbutton {
+    -fx-background-color: #FE7575;
+}
+
+.label {
+    -fx-font-size: 30;
+}
