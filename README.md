@@ -1,4 +1,4 @@
-# DictionaryProject
+# Dictionary Project
 
 Simple dictionary program written in Java language
 
